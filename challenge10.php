@@ -7,11 +7,10 @@
 </head>
 <body>
 <form method="POST" action="challenge10.php">
-        Masukkan Nama Anda = <input type="text" name="namaku"><br>
-        Masukkan Angka Pertama (1-10) = <input type="number" name="angka_pertama"><br>
-        Masukkan Angka Kedua (1-10) = <input name="number" name="angka_kedua">
- </input><br>
-        <input type="submit" name="kirim" value="sent">
+        Masukkan Nama Anda = <input type="text" name="namaku" id="nama" required><br>
+        Masukkan Angka Pertama (1-10) = <input type="number" name="angka_pertama" id="angka1" min="1" max="10" required><br>
+        Masukkan Angka Kedua (1-10) = <input name="number" name="angka_kedua" id="angka2 " min="1" max="10" required></input><br>
+        <input type="submit" value="hitung">
     </form>
 </body>
 </html>
